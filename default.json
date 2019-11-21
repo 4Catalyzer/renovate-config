@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "config:base",
+    ":disablePeerDependencies",
+    ":semanticCommitTypeAll(chore)",
+    "group:allNonMajor",
+    "schedule:daily"
+  ],
+  "rangeStrategy": "bump",
+  "semanticCommits": true
+}
