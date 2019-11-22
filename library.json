@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "github>4Catalyzer/renovate-config",
+    "schedule:weekly"
+  ],
+  "rangeStrategy": "update-lockfile",
+  "packageRules": [
+    {
+      "depTypeList": ["devDependencies"],
+      "rangeStrategy": "bump"
+    }
+  ]
+}
