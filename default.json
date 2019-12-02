@@ -7,5 +7,6 @@
     "schedule:daily"
   ],
   "rangeStrategy": "bump",
+  "postUpdateOptions": "yarnDedupeFewer",
   "semanticCommits": true
 }
