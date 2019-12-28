@@ -1,8 +1,5 @@
 {
-  "extends": [
-    "github>4Catalyzer/renovate-config",
-    "schedule:weekly"
-  ],
+  "extends": ["github>4Catalyzer/renovate-config"],
   "rangeStrategy": "update-lockfile",
   "packageRules": [
     {

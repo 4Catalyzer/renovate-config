@@ -3,8 +3,18 @@
     "config:base",
     ":disablePeerDependencies",
     ":semanticCommitTypeAll(chore)",
-    "group:allNonMajor",
     "schedule:daily"
+  ],
+  "packageRules": [
+    {
+      "extends": ["schedule:weekly"],
+      "packagePatterns": ["*"],
+      "excludePackageNames": ["flow-bin"],
+      "minor": {
+        "groupName": "all non-major dependencies",
+        "groupSlug": "all-minor-patch"
+      }
+    }
   ],
   "rangeStrategy": "bump",
   "postUpdateOptions": "yarnDedupeFewer",
