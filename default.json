@@ -8,15 +8,13 @@
   "packageRules": [
     {
       "extends": ["schedule:weekly"],
-      "packagePatterns": ["*"],
+      "updateTypes": ["patch", "minor"],
       "excludePackageNames": ["flow-bin"],
-      "minor": {
-        "groupName": "all non-major dependencies",
-        "groupSlug": "all-minor-patch"
-      }
+      "groupName": "all non-major dependencies",
+      "groupSlug": "all-minor-patch"
     }
   ],
   "rangeStrategy": "bump",
-  "postUpdateOptions": "yarnDedupeFewer",
+  "postUpdateOptions": "yarnDedupeHighest",
   "semanticCommits": true
 }
