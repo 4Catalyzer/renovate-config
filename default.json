@@ -5,6 +5,9 @@
     ":semanticCommitTypeAll(chore)",
     "schedule:daily"
   ],
+  "engines": {
+    "enabled": false
+  },
   "packageRules": [
     {
       "extends": ["schedule:weekly"],
