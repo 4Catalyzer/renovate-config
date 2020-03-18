@@ -8,6 +8,9 @@
   "engines": {
     "enabled": false
   },
+  "pip_requirements": {
+    "fileMatch": ["(^|/)requirements(-dev)?\\.txt"]
+  },
   "packageRules": [
     {
       "extends": ["schedule:weekly"],
