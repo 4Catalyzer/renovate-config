@@ -15,6 +15,10 @@
       "excludePackageNames": ["flow-bin", "found", "found-relay"],
       "groupName": "all non-major dependencies",
       "groupSlug": "all-minor-patch"
+    },
+    {
+      "sourceUrlPrefixes": ["https://github.com/facebook/relay"],
+      "groupName": "Relay monorepo"
     }
   ],
   "rangeStrategy": "bump",
