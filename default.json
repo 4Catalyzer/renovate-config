@@ -12,7 +12,7 @@
     {
       "extends": ["schedule:weekly"],
       "updateTypes": ["patch", "minor"],
-      "excludePackageNames": ["flow-bin"],
+      "excludePackageNames": ["flow-bin", "found", "found-relay"],
       "groupName": "all non-major dependencies",
       "groupSlug": "all-minor-patch"
     }
