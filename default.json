@@ -18,7 +18,13 @@
     {
       "extends": ["schedule:weekly"],
       "updateTypes": ["patch", "minor"],
-      "excludePackageNames": ["flow-bin", "found", "found-relay"],
+      "excludePackageNames": [
+        "farce",
+        "flow-bin",
+        "found",
+        "found-relay",
+        "found-scroll"
+      ],
       "groupName": "all non-major dependencies",
       "groupSlug": "all-minor-patch"
     },
