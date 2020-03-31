@@ -23,7 +23,8 @@
         "flow-bin",
         "found",
         "found-relay",
-        "found-scroll"
+        "found-scroll",
+        "scroll-behavior"
       ],
       "groupName": "all non-major dependencies",
       "groupSlug": "all-minor-patch"
