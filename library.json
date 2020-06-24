@@ -3,6 +3,7 @@
   "packageRules": [
     {
       "depTypeList": ["dependencies"],
+      "updateTypes": ["patch", "minor"],
       "enabled": false
     }
   ]
