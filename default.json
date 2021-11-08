@@ -33,6 +33,11 @@
     {
       "sourceUrlPrefixes": ["https://github.com/facebook/relay"],
       "groupName": "Relay monorepo"
+    },
+    {
+      "matchPackageNames": ["python", "node"],
+      "matchManagers": ["dockerfile"],
+      "enabled": false
     }
   ],
   "rangeStrategy": "bump",
