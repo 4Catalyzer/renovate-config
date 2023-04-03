@@ -41,6 +41,11 @@
       "matchPackageNames": ["python", "node"],
       "matchManagers": ["dockerfile"],
       "enabled": false
+    },
+    {
+      "matchPackageNames": ["fourmat"],
+      "updateTypes": ["minor"],
+      "versioning": "lockfile-major"
     }
   ],
   "rangeStrategy": "bump",
