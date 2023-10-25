@@ -28,7 +28,13 @@
         "found",
         "found-relay",
         "found-scroll",
-        "scroll-behavior"
+        "scroll-behavior",
+        "black",
+        "flake8",
+        "flake8-bugbear",
+        "isort",
+        "pycodestyle",
+        "pyflakes"
       ],
       "groupName": "all non-major dependencies",
       "groupSlug": "all-minor-patch"
