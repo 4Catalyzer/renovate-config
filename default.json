@@ -28,13 +28,7 @@
         "found",
         "found-relay",
         "found-scroll",
-        "scroll-behavior",
-        "black",
-        "flake8",
-        "flake8-bugbear",
-        "isort",
-        "pycodestyle",
-        "pyflakes"
+        "scroll-behavior"
       ],
       "groupName": "all non-major dependencies",
       "groupSlug": "all-minor-patch"
@@ -53,6 +47,14 @@
       "updateTypes": ["minor"],
       "versioning": "lockfile-major"
     }
+  ],
+  "ignoreDeps": [
+      "black",
+      "flake8",
+      "flake8-bugbear",
+      "isort",
+      "pycodestyle",
+      "pyflakes"
   ],
   "rangeStrategy": "bump",
   "postUpdateOptions": "yarnDedupeHighest",
