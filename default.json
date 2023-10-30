@@ -53,6 +53,7 @@
       "flake8",
       "flake8-bugbear",
       "isort",
+      "mccabe",
       "pycodestyle",
       "pyflakes"
   ],
