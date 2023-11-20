@@ -11,9 +11,6 @@
   "pip_requirements": {
     "fileMatch": ["(^|/)requirements(-dev)?\\.txt"]
   },
-  "pip-compile": {
-    "fileMatch": ["(^|/)requirements(-dev)?\\.in"]
-  },
   "pip_setup": {
     "enabled": false
   },
