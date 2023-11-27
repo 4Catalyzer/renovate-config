@@ -51,6 +51,7 @@
       "flake8-bugbear",
       "isort",
       "mccabe",
+      "postgres",
       "pycodestyle",
       "pyflakes"
   ],
